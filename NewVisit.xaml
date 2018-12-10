@@ -1,0 +1,34 @@
+﻿<Window x:Name="NewVisit1" x:Class="Ekartoteka.NewVisit"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ekartoteka"
+        mc:Ignorable="d"
+        Title="E-kartoteka Nowa wizyta" Height="800" Width="1000" Background="#FF4D6C91">
+    <Grid>
+        <TextBox x:Name="Preview_TB" HorizontalAlignment="Left" Height="102" Margin="20,50,0,0" TextWrapping="Wrap" Text="PODGLĄD DANYCH PACJENTA" VerticalAlignment="Top" Width="418" Background="#FF4D6C91" BorderBrush="#FF4D6C91" Foreground="#FFD9D7D5"/>
+        <TextBox x:Name="Note_TB" HorizontalAlignment="Left" Height="320" Margin="20,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420"/>
+        <Label x:Name="Note_L" Content="Notatki dotyczące wizyty" HorizontalAlignment="Left" Margin="20,167,0,0" VerticalAlignment="Top" Width="200" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5" FontSize="14"/>
+        <Label x:Name="Patient_L" Content="Dane pacjenta" HorizontalAlignment="Left" Margin="20,21,0,0" VerticalAlignment="Top" Width="168" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5" FontSize="14"/>
+        <Label x:Name="DrugsList_L" Content="Wybierz leki" HorizontalAlignment="Left" Margin="20,570,0,0" VerticalAlignment="Top" Width="168" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5"/>
+        <ListBox x:Name="DrugsList_LB" HorizontalAlignment="Left" Height="100" Margin="20,600,0,0" VerticalAlignment="Top" Width="180"/>
+        <CheckBox x:Name="AddDrugs_CB" Content="Przepisanie leków" HorizontalAlignment="Left" Margin="20,550,0,0" VerticalAlignment="Top" FontFamily="Montserrat" Foreground="#FFD9D7D5" FontSize="14"/>
+        <Button x:Name="AddDrug_B" Content="Wybierz lek" HorizontalAlignment="Left" Height="30" Margin="117,710,0,0" VerticalAlignment="Top" Width="83" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="AddedDrugs_L" Content="Przepisane leki" HorizontalAlignment="Left" Margin="260,570,0,0" VerticalAlignment="Top" Width="168" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5"/>
+        <ListView x:Name="AddedDrugs_LV" HorizontalAlignment="Left" Height="100" Margin="260,600,0,0" VerticalAlignment="Top" Width="180">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="DeleteDrug_B" Content="Usuń lek" HorizontalAlignment="Left" Height="30" Margin="355,710,0,0" VerticalAlignment="Top" Width="83" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Button x:Name="SaveVisit_B" Content="ZAPISZ WIZYTĘ" HorizontalAlignment="Left" Height="80" Margin="746,665,0,0" VerticalAlignment="Top" Width="220" FontFamily="Montserrat" FontSize="18" FontWeight="Bold" Click="SaveVisit_B_Click"/>
+        <DataGrid HorizontalAlignment="Left" Height="180" Margin="546,60,0,0" VerticalAlignment="Top" Width="420"/>
+        <Label x:Name="VisitsList_L" Content="Poprzednie wizyty" HorizontalAlignment="Left" Margin="546,21,0,0" VerticalAlignment="Top" Width="168" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5" FontSize="14"/>
+        <TextBox x:Name="VisitPreview_TB" HorizontalAlignment="Left" Height="320" Margin="546,309,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="420" Background="#FF4D6C91" BorderBrush="#FF4D6C91"/>
+        <Label x:Name="VisitPrewiev_L" Content="Podgląd wybranej wizyty" HorizontalAlignment="Left" Margin="546,280,0,0" VerticalAlignment="Top" Width="200" FontFamily="Montserrat" FontWeight="Bold" Foreground="#FFD9D7D5" FontSize="14"/>
+
+    </Grid>
+</Window>

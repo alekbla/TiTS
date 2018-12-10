@@ -1,0 +1,45 @@
+﻿<Window x:Name="NewPatient_W" x:Class="Ekartoteka.NewPatient"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ekartoteka"
+        mc:Ignorable="d"
+        Title="E-kartoteka Nowy Pacjent" Height="500" Width="520" Background="#FF4D6C91">
+    <Grid>
+        <Label x:Name="FirstName_L" Content="IMIĘ" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="135" Foreground="#FFD9D7D5" FontFamily="Montserrat" Padding="5" UseLayoutRounding="True" FontWeight="Bold"/>
+        <Label x:Name="LastName_L" Content="NAZWISKO" HorizontalAlignment="Left" Height="30" Margin="10,50,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="Pesel_L" Content="PESEL" HorizontalAlignment="Left" Height="30" Margin="10,90,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="BirthDate_L" Content="DATA URODZENIA" HorizontalAlignment="Left" Height="30" Margin="10,130,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="Allergies_L" Content="ALERGIE" HorizontalAlignment="Left" Height="30" Margin="10,170,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="Drugs_L" Content="PRZYJMOWANE &#xD;&#xA;LEKI" HorizontalAlignment="Left" Height="40" Margin="10,210,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <Label x:Name="Note_L" Content="DODATKOWE &#xD;&#xA;UWAGI" HorizontalAlignment="Left" Height="45" Margin="10,310,0,0" VerticalAlignment="Top" Width="134" Foreground="#FFD9D7D5" FontFamily="Montserrat" FontWeight="Bold"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="127,175,0,0" VerticalAlignment="Top" Height="16" Width="17" RenderTransformOrigin="0.8,0.763"/>
+        <CheckBox Content="" HorizontalAlignment="Left" Margin="127,215,0,0" VerticalAlignment="Top" Height="16" Width="17" RenderTransformOrigin="0.8,0.763"/>
+        <TextBox x:Name="FirstName_TB" HorizontalAlignment="Left" Height="30" Margin="174,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" FontFamily="Montserrat"/>
+        <TextBox x:Name="LastName_TB" HorizontalAlignment="Left" Height="30" Margin="174,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" FontFamily="Montserrat"/>
+        <Grid Margin="0,0,-0.4,-0.4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="PESEL_TB" HorizontalAlignment="Left" Height="30" Margin="174,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" FontFamily="Montserrat"/>
+            <DatePicker x:Name="BirthDate_DP" HorizontalAlignment="Left" Height="30" Margin="174,130,0,0" VerticalAlignment="Top" Width="318" FontFamily="Montserrat"/>
+            <TextBox x:Name="Note_TB" HorizontalAlignment="Left" Height="90" Margin="174,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" FontFamily="Montserrat"/>
+            <Button x:Name="SavePatient_B" Content="ZAPISZ PACJENTA" HorizontalAlignment="Left" Height="37" Margin="190,420,0,0" VerticalAlignment="Top" Width="140" FontFamily="Montserrat" FontWeight="Bold"/>
+            <TextBox x:Name="Allergies_TB" HorizontalAlignment="Left" Height="30" Margin="174,170,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="318" FontFamily="Montserrat"/>
+            <ListBox x:Name="DrugList_LB" HorizontalAlignment="Left" Height="60" Margin="174,214,0,0" VerticalAlignment="Top" Width="150" FontFamily="Montserrat"/>
+            <ListView x:Name="AddedDrugs_LV" HorizontalAlignment="Left" Height="60" Margin="342,214,0,0" VerticalAlignment="Top" Width="150">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button x:Name="AddDrug_B" Content="Wybierz lek" HorizontalAlignment="Left" Height="20" Margin="224,279,0,0" VerticalAlignment="Top" Width="100" FontFamily="Montserrat" FontWeight="Bold"/>
+            <Button x:Name="DeleteDrug_B" Content="Usuń lek" HorizontalAlignment="Left" Height="20" Margin="392,279,0,0" VerticalAlignment="Top" Width="100" FontFamily="Montserrat" FontWeight="Bold"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
