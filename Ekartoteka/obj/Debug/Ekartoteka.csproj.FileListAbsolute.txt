@@ -1,0 +1,36 @@
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.exe.config
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.exe
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.pdb
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.csprojAssemblyReference.cache
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\MainWindow.g.cs
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\App.g.cs
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka_MarkupCompile.cache
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka_MarkupCompile.lref
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\MainWindow.baml
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.g.resources
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.Properties.Resources.resources
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.csproj.GenerateResource.cache
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.csproj.CoreCompileInputs.cache
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.exe
+E:\Aleksandra\Inżyniera Biomedyczna\Moje\V semestr\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.pdb
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.exe.config
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.exe
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.pdb
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.exe
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\bin\Debug\Ekartoteka.pdb
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\EditPatient.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Login.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\MainWindow.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\NewPatient.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\NewVisit.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\App.g.cs
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka_MarkupCompile.cache
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka_MarkupCompile.lref
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\EditPatient.baml
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Login.baml
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\MainWindow.baml
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\NewPatient.baml
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\NewVisit.baml
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.g.resources
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.Properties.Resources.resources
+D:\SEMESTR5TY\TiTS\Ekartoteka\Ekartoteka\obj\Debug\Ekartoteka.csproj.GenerateResource.Cache

@@ -1,0 +1,6 @@
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\bin\Release\WcfEkartoteka.dll.config
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\bin\Release\WcfEkartoteka.dll
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\bin\Release\WcfEkartoteka.pdb
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\obj\Release\WcfEkartoteka.dll
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\obj\Release\WcfEkartoteka.pdb
+D:\SEMESTR5TY\TiTS\Ekartoteka\WcfEkartoteka\obj\Release\WcfEkartoteka.csprojResolveAssemblyReference.cache
